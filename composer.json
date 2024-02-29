@@ -1,0 +1,25 @@
+{
+    "name": "ferih/app-svm-liver",
+    "description": "Aplikasi untuk memprediksi penyakit liver menggunakan Algoritma SVM (Support Vector Machine)",
+    "type": "project",
+    "authors": [
+        {
+            "name": "feri-hermawan",
+            "email": "ferihermawan007@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8",
+        "phpoffice/phpspreadsheet": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SVMLiver\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SVMLiver\\": "tests"
+        }
+    }
+}
